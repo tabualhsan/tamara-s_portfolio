@@ -2,14 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'monsterrat';
+  font-family: "lato";
+  font-size:small; 
 }
 
-.App {
-  text-align: center;
-  
-  
-
+.experience-card{
+  display: grid;
 }
 
 .navbar{
@@ -41,4 +39,33 @@ nav{
 
 .coloring{
   color: black;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inner {
+  overflow: hidden;
+  transition: max-height 0.2s ease;
+}
+
+.expand-button{
+  background-color: #88A1BD; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.card-deck{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:40px;
+  
+  
 }
