@@ -6,16 +6,22 @@ import Resume from './resume';
 import Contact from './contact';
 import Projects from './projects';
 
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, useLocation} from 'react-router-dom'
+import { AnimatePresence } from 'framer-motion';
+import AboutMe from "./AboutMe";
 function App() {
 
-
+  const location = useLocation();
   return (
-
+    
     <div className="App">
-  
-          <Nav/>
-      <Switch>
+    <Nav/>
+    
+    <AnimatePresence exitBeforeEnter >
+      <Switch location={location} key={location.pathname}>
+      <Route path='/AboutMe'>
+      <AboutMe/>
+      </Route>
         <Route path='/projects' exact>
           <Projects/>
         </Route>
@@ -26,6 +32,7 @@ function App() {
           <Contact/>
         </Route>
       </Switch>
+      </AnimatePresence>
 
  
 

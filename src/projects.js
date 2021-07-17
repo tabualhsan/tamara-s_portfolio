@@ -25,7 +25,7 @@ const Projects = () => {
 
     <div>
 
-        <Link to="/projects">
+       
         <motion.div variants={pageAnimation} initial="hidden" animate="show" >
             <div className="card-deck" display="grid" >
             <div  style={{display:"flex"}}>
@@ -115,7 +115,7 @@ const Projects = () => {
         </div>
         </div>
         </motion.div>
-    </Link>
+   
  
 
     </div>

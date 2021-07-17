@@ -7,11 +7,10 @@ import { pageAnimation } from './animation';
 
 const Resume = () => {
 return(
-<Link to="/resume">
-    <motion.div variants={pageAnimation} initial="hidden" animate="show" >
+    <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" >
     <h1>resume page</h1>
     </motion.div>
-</Link>
+
 
    )
 }

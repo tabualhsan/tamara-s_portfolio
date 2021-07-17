@@ -10,10 +10,13 @@ const Nav = () => {
                 <Link id="logo" to="/">Welcome</Link></h1>
             <ul>
                 <li>
+                    <Link to="/AboutMe"> About Me </Link>
+                </li>
+                <li>
                     <Link to="/projects"> Projects </Link>
                 </li>
                 <li>
-                    <Link to="/resume"> Resume </Link>
+                    <Link to="/resume"> Experience </Link>
                 </li>
                 <li>
                     <Link to="/contact"> Contact Me </Link>
@@ -32,7 +35,7 @@ const StyledNav = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding:1rem 10rem;
-    background:#282828 ;
+    background:#363131 ;
 
     a{
         color:white;
