@@ -59,16 +59,14 @@ export const fade = {
           transition: {duration:2},
         }
       }
-
-      export const slider ={
-
-        hidden:{x: '-130%', skew: "45deg"},
-        show:{
-          x:'100%',
-          skew:'0deg',
-          transition: {ease:'easeOut', duration: 1},
-        }
-      }
+      export const slider = {
+        hidden: { x: '-150%', skew: '45deg' },
+        show: {
+          x: '100%',
+          skew: '0deg',
+          transition: { type: 'tween', ease: 'easeOut', duration: 1 },
+        },
+      };
       
       export const sliderContainer ={
       
