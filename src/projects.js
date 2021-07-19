@@ -26,12 +26,12 @@ const Projects = () => {
     <div>
 
        
-        <motion.div variants={pageAnimation} initial="hidden" animate="show" >
-            <div className="card-deck" display="grid" >
-            <div  style={{display:"flex"}}>
+        <motion.div variants={pageAnimation} initial="hidden" animate="show"  >
+            <div className="card-deck" display="grid">
+            <div  style={{display:"flex", marginLeft:100}}>
         
             <CardDeck>
-            <Card  style={{ display:"flex-box", width: '20rem' }} className="mb-3">
+            <Card  style={{ display:"flex-box", width: '20rem', }} className="mb-3">
                 <Card.Body >
                 <Card.Title>Dow Jane</Card.Title>
                 
@@ -74,7 +74,7 @@ const Projects = () => {
             </CardDeck>
             </div>
             
-            <div  style={{display:"flex"}}>
+            <div  style={{display:"flex",align:"center"}}>
             <CardDeck>
             <Card style={{ width: '20rem', fontWeight:"small"}} className="mb-3">
                 <Card.Body >
@@ -94,7 +94,7 @@ const Projects = () => {
             </CardDeck>
             </div>
             <div  style={{display:"flex"}}>
-            <CardDeck>
+            <CardDeck marginLeft="100">
             <Card style={{ width: '20rem', fontWeight:"small"}} className="mb-3">
                 <Card.Body >
                 <Card.Title style={{fontWeight:'medium'}}> Study Beats </Card.Title>

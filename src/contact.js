@@ -14,9 +14,6 @@ return(
 
     <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" >
     <div className="title">
-
-  
-
     <About>
     <Description>
         <Hide>

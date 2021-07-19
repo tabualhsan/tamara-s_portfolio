@@ -5,6 +5,7 @@ import Nav from './Nav';
 import Resume from './resume';
 import Contact from './contact';
 import Projects from './projects';
+import Welcome from "./Welcome";
 
 import {Switch, Route, useLocation} from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion';
@@ -19,8 +20,11 @@ function App() {
     
     <AnimatePresence exitBeforeEnter >
       <Switch location={location} key={location.pathname}>
+      <Route path='/' exact>
+        <Welcome/>
+      </Route>
       <Route path='/AboutMe'>
-      <AboutMe/>
+        <AboutMe/>
       </Route>
         <Route path='/projects' exact>
           <Projects/>
