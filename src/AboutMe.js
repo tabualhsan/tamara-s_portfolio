@@ -2,9 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import {motion} from 'framer-motion';
-import { pageAnimation } from './animation';
+
 import Wave from './Wave';
-import { titleAnim, fade, photoAnim, lineAnime } from './animation';
+import { pageAnimation, titleAnim, fade, photoAnim, lineAnime } from './animation';
 import { About, Description } from './styles';
 
 
@@ -67,7 +67,7 @@ const Paragraph = styled.div`
     padding-bottom: 10rem;
     .line{
         height:0.5rem;
-        background: #7a7171;
+        background: #D96ED4;
         margin-bottom: 3rem;
     }
     img{
