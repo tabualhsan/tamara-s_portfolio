@@ -66,9 +66,9 @@ const Projects = () => {
                 <Card.Body >
                 <Card.Title>National Park Search App </Card.Title>
                 <motion.div variants={lineAnime} className="line"></motion.div>
-                <a href="https://dowjane.app/" target="_blank" >
-                </a>
+                <a href="https://nationalparkfinder.netlify.app/" target="_blank" >
                 <motion.img variants={photoAnim} style={{height:'15rem', objectFit:'cover'}} src={nationalpark} alt="National Park logo"/>
+                </a>
                 <Card.Text >The National Park Seach App for the adventerous individual out there looking to venture and discover the 432 National Parks that the USA has.</Card.Text>
             <Card.Text><h6>Tech Stack:</h6>
             <strong>Frontend:</strong> React, JavaScript, HTML5, CSS3,  Bootstrap <br></br>
