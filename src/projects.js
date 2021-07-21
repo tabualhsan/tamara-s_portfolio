@@ -66,6 +66,8 @@ const Projects = () => {
                 <Card.Body >
                 <Card.Title>National Park Search App </Card.Title>
                 <motion.div variants={lineAnime} className="line"></motion.div>
+                <a href="https://dowjane.app/" target="_blank" >
+                </a>
                 <motion.img variants={photoAnim} style={{height:'15rem', objectFit:'cover'}} src={nationalpark} alt="National Park logo"/>
                 <Card.Text >The National Park Seach App for the adventerous individual out there looking to venture and discover the 432 National Parks that the USA has.</Card.Text>
             <Card.Text><h6>Tech Stack:</h6>
