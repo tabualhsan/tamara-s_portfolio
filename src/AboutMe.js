@@ -24,9 +24,9 @@ const AboutMe = () => {
             <motion.h2 variants={titleAnim} > Tamara Abualhsan</motion.h2>
             </Hide>
             <Hide>
-            <motion.h2 variants={titleAnim}>
+            <motion.h3 variants={titleAnim}>
               Software Engineer
-            </motion.h2>
+            </motion.h3>
             </Hide>
             <motion.div variants={lineAnime} className="line"></motion.div>
             <Hide>

@@ -28,7 +28,7 @@ const Projects = () => {
 
     
         <motion.div variants={pageAnimation} initial="hidden" animate="show"  >
-        <div  style={{display:"flex", marginLeft:100}} className="card-deck" display="grid" className="mb-3">
+        <div cl style={{display:"flex", marginLeft:100}} className="card-deck" display="grid" className="mb-3">
             <div >
        
         
@@ -120,6 +120,26 @@ const Projects = () => {
             </Card.Link>
             </Card>
             </CardDeck>
+            {/* <div  style={{display:"flex",align:"center"}}>
+            <CardDeck>
+            <Card style={{ width: '20rem', fontWeight:"small"}} className="mb-3">
+                <Card.Body >
+                <Card.Title style={{fontWeight:'medium'}}> My Webiste </Card.Title>
+                <motion.div variants={lineAnime} className="line"></motion.div>
+            <motion.img variants={photoAnim} style={{height:'15rem', objectFit:'cover'}} />
+                <Card.Text> Created my own profile with React to showcase my coding journey!</Card.Text>
+            <Card.Text >
+                <h6>Tech Stack:</h6>
+                <strong>Frontend:</strong> JavaScript, HTML5, CSS3, Bootstrap<br></br>
+                <strong>Tools:</strong> GIT, GITHub, Visual StudioCode<br></br>
+            </Card.Text>
+                </Card.Body>
+                <Card.Link>
+                <a style={{color:"#D96ED4" }} target="_blank" href={"https://github.com/tabualhsan/Beats_by_Tamara"}><AiFillGithub size={30}/></a>        
+            </Card.Link>
+            </Card>
+            </CardDeck>
+            </div> */}
             
         </div>
         </div>
@@ -133,7 +153,7 @@ const Projects = () => {
 }
 
 const Paragraph = styled.div`
-    padding-bottom: 10rem;
+    padding-bottom: 100rem;
     .line{
         height:0.5rem;
         background: #D96ED4;
