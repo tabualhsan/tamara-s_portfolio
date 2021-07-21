@@ -33,7 +33,7 @@ const Projects = () => {
        
         
             <CardDeck>
-            <Card  style={{ display:"flex-box", width: '20rem' }} >
+            <Card  style={{ display:"grid", width: '20rem' }} >
                 <Card.Body >
                 <Card.Title>Dow Jane</Card.Title>
                 <motion.div variants={lineAnime} className="line"></motion.div>
@@ -156,6 +156,7 @@ const Projects = () => {
 
 const Paragraph = styled.div`
     padding-bottom: 100rem;
+    padding-top: 10rem;
     .line{
         height:0.5rem;
         background: #D96ED4;
