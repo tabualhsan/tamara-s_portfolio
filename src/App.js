@@ -10,6 +10,10 @@ import Welcome from "./Welcome";
 import {Switch, Route, useLocation} from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion';
 import AboutMe from "./AboutMe";
+
+
+import { BrowserRouter } from 'react-router-dom';
+import Analytics from 'react-router-ga';
 function App() {
 
   const location = useLocation();
@@ -17,6 +21,7 @@ function App() {
     
     <div className="App">
     <Nav/>
+
     
     <AnimatePresence exitBeforeEnter >
       <Switch location={location} key={location.pathname}>
