@@ -53,7 +53,13 @@ nav{
   text-align: center;
   align-items: center;
   background-color: #e2e1e1;
-  position: absolute;
+  /* position: absolute; */
+}
+
+.card-deck{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:40px;
 }
 
 .inner {

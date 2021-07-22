@@ -24,16 +24,16 @@ const Projects = () => {
       
     return(
     <Paragraph>
-    <div>
+    <div >
 
     
         <motion.div variants={pageAnimation} initial="hidden" animate="show"  >
-        <div cl style={{display:"flex", marginLeft:100}} className="card-deck" display="grid" className="mb-3">
+        <div style={{display:"flex"}} className="card-deck" display="grid" className="mb-3">
             <div >
        
         
             <CardDeck>
-            <Card  style={{ display:"flex-box", width: '20rem' }} >
+            <Card  style={{ display:"grid", width: '20rem' }} >
                 <Card.Body >
                 <Card.Title>Dow Jane</Card.Title>
                 <motion.div variants={lineAnime} className="line"></motion.div>
@@ -60,7 +60,7 @@ const Projects = () => {
             </Card>
             </CardDeck>
         </div>
-            <div  style={{display:"flex"}}>
+            <div  style={{display:"grid"}}>
             <CardDeck>
             <Card style={{ width: '20rem', fontWeight:"small"}} className="mb-3">
                 <Card.Body >
@@ -82,7 +82,7 @@ const Projects = () => {
             </CardDeck>
             </div>
             
-            <div  style={{display:"flex",align:"center"}}>
+            <div  style={{display:"grid",align:"center"}}>
             <CardDeck>
             <Card style={{ width: '20rem', fontWeight:"small"}} className="mb-3">
                 <Card.Body >
@@ -122,7 +122,7 @@ const Projects = () => {
             </Card.Link>
             </Card>
             </CardDeck>
-            <div  style={{display:"flex",align:"center"}}>
+            {/* <div  style={{display:"grid",align:"center"}}>
             <CardDeck>
             <Card style={{ width: '20rem', fontWeight:"small"}} className="mb-3">
                 <Card.Body >
@@ -141,7 +141,7 @@ const Projects = () => {
             </Card.Link>
             </Card>
             </CardDeck>
-            </div>
+            </div> */}
             
         </div>
         </div>
@@ -157,7 +157,10 @@ const Projects = () => {
 const Paragraph = styled.div`
     padding-bottom: 100rem;
     padding-top: 10rem;
-    object-fit: fill;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:40px;
+        
     
     .line{
         height:0.5rem;
