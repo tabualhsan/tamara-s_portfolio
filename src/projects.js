@@ -157,7 +157,7 @@ const Projects = () => {
 const Paragraph = styled.div`
     padding-bottom: 100rem;
     padding-top: 10rem;
-    padding-right: 10rem;
+    object-fit: fill;
     
     .line{
         height:0.5rem;
