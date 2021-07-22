@@ -33,7 +33,7 @@ const Projects = () => {
        
         
             <CardDeck>
-            <Card  style={{ display:"grid", width: '20rem' }} >
+            <Card  style={{ display:"flex-box", width: '20rem' }} >
                 <Card.Body >
                 <Card.Title>Dow Jane</Card.Title>
                 <motion.div variants={lineAnime} className="line"></motion.div>
@@ -122,7 +122,7 @@ const Projects = () => {
             </Card.Link>
             </Card>
             </CardDeck>
-            {/* <div  style={{display:"flex",align:"center"}}>
+            <div  style={{display:"flex",align:"center"}}>
             <CardDeck>
             <Card style={{ width: '20rem', fontWeight:"small"}} className="mb-3">
                 <Card.Body >
@@ -141,7 +141,7 @@ const Projects = () => {
             </Card.Link>
             </Card>
             </CardDeck>
-            </div> */}
+            </div>
             
         </div>
         </div>

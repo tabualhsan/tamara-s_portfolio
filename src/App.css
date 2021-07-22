@@ -53,6 +53,7 @@ nav{
   text-align: center;
   align-items: center;
   background-color: #e2e1e1;
+  position: absolute;
 }
 
 .inner {
