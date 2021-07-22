@@ -20,9 +20,11 @@ function App() {
   return (
     
     <div className="App">
+
+  
     <Nav/>
 
-    
+    <Analytics id="G-4ZWNB3NJT3" debug>
     <AnimatePresence exitBeforeEnter >
       <Switch location={location} key={location.pathname}>
       <Route path='/' exact >
@@ -42,7 +44,7 @@ function App() {
         </Route>
       </Switch>
       </AnimatePresence>
-
+      </Analytics>
  
 
    </div>
